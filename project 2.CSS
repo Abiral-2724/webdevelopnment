@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>MY Gallery</title>
-    <style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+ <style>
     * {
   margin: 0px;
   padding: 0px;
@@ -77,8 +79,6 @@ h1 {
 }
 
     </style>
-    <link rel="stylesheet" href="style.css" />
-  </head>
   <body>
     <div id="wrapper">
       <div class="container">
