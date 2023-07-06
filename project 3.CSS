@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <style>
+  * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+button {
+  margin-left: 40px;
+  height: 30px;
+  width: 100px;
+  border-radius: 0.5rem;
+
+  color: red;
+}
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 10px 0;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+.container {
+  height: 1000px;
+  width: 1100px;
+  margin: 0 auto;
+  background-color: white;
+  border: 3px solid white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.box {
+  background-color: white;
+  border: 2px solid whitesmoke;
+}
+.box:hover {
+  transform: scale(1.03);
+  filter: drop-shadow(0 0 10px #333);
+  transition: 0.5s;
+}
+#box1 {
+  padding: 20px;
+}
+#box1:hover {
+  background-color: powderblue;
+}
+#box2 {
+  padding: 20px;
+}
+#box2:hover {
+  background-color: bisque;
+}
+#box3 {
+  padding: 20px;
+}
+#box3:hover {
+  background-color: rgb(110, 86, 86);
+}
+#box4 {
+  padding: 20px;
+}
+#box4:hover {
+  background-color: cornsilk;
+}
+#box6 {
+  padding: 20px;
+}
+#box6:hover {
+  background-color: aliceblue;
+}
+#box5 {
+  padding: 20px;
+}
+#box5:hover {
+  background-color: blanchedalmond;
+}
+
+h3 {
+  /* padding: 20px; */
+  color: rgb(43, 43, 134);
+}
+h2 {
+  font-weight: 600;
+}
+a {
+  color: rgb(43, 43, 134);
+}
+
+  </style>
+  <body>
+    <div class="wrapper">
+      <h1 class="heading">Blog Title</h1>
+      <button class="subs">
+        <a href="https://www.youtube.com/@CodeHelp" class="Subscribe"
+          >Subscribe</a
+        >
+      </button>
+
+      <br />
+
+      <div class="container">
+        <div class="box" id="box1">
+          <h3>World</h3>
+          <br />
+          <h2>Example Blog Post</h2>
+          <p style="color: grey;">
+            July 6
+          </p>
+          <br />
+          <p>This card represent an example blog post.</p>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <a href="https://3npcls.csb.app/">Continue reading</a>
+        </div>
+        <div class="box" id="box2">
+          <h3 style="color: rgb(36, 136, 36);">Design</h3>
+          <br />
+          <h2>Post title</h2>
+          <p style="color: grey;">
+            July 6
+          </p>
+          <br />
+          <p>
+            This is a wider card with support text below as a natural-lead in
+            additional content.
+          </p>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <a href="https://3npcls.csb.app/">Continue reading</a>
+        </div>
+        <div class="box" id="box3">
+          <h3>World</h3>
+          <br />
+          <h2>Example Blog Post</h2>
+          <p style="color: grey;">
+            July 6
+          </p>
+          <br />
+          <p>This card represent an example blog post.</p>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <a href="https://3npcls.csb.app/">Continue reading</a>
+        </div>
+        <div class="box" id="box4">
+          <h3 style="color: rgb(36, 136, 36);">Design</h3>
+          <br />
+          <h2>Post title</h2>
+          <p style="color: grey;">
+            July 6
+          </p>
+          <br />
+          <p>
+            This is a wider card with support text below as a natural-lead in
+            additional content.
+          </p>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <a href="https://3npcls.csb.app/">Continue reading</a>
+        </div>
+        <div class="box" id="box5">
+          <h3>World</h3>
+          <br />
+          <h2>Example Blog Post</h2>
+          <p style="color: grey;">
+            July 6
+          </p>
+          <br />
+          <p>This card represent an example blog post.</p>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <a href="https://3npcls.csb.app/">Continue reading</a>
+        </div>
+        <div class="box" id="box6">
+          <h3 style="color: rgb(36, 136, 36);">Design</h3>
+          <br />
+          <h2>Post title</h2>
+          <p style="color: grey;">
+            July 6
+          </p>
+          <br />
+          <p>
+            This is a wider card with support text below as a natural-lead in
+            additional content.
+          </p>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <a href="https://3npcls.csb.app/">Continue reading</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
