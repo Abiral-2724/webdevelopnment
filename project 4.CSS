@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+  * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.subs {
+  margin-left: 40px;
+  height: 30px;
+  width: 100px;
+  border-radius: 0.5rem;
+  color: red;
+}
+.Subscribe {
+  color: red;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 10px 0;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+.container {
+  height: 1300px;
+  width: 1200px;
+
+  background-color: white;
+  border: 3px solid white;
+  margin: 0 auto;
+  padding: 10px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 800px 340px;
+  grid-template-rows: 100%;
+}
+.box {
+  background-color: white;
+  border: 1px solid whitesmoke;
+}
+#box1 {
+  margin-left: 15px;
+}
+h2 {
+  text-align: left;
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 10px 0;
+  margin-bottom: 1px;
+  margin-left: 15px;
+}
+p {
+  margin-left: 15px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.date {
+  margin-top: 10px;
+  margin-left: 15px;
+  color: grey;
+}
+ul li {
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.button {
+  margin-left: 15px;
+  height: 30px;
+  width: 100px;
+  border-radius: 1.5rem;
+  color: blue;
+}
+.button2 {
+  margin-left: 15px;
+  height: 30px;
+  width: 100px;
+  border-radius: 1.5rem;
+  color: blue;
+}
+h3 {
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 10px 0;
+  margin-bottom: 1px;
+  margin-left: 15px;
+}
+.icon {
+  margin-left: 15px;
+}
+@media (max-width: 500px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 800px 340px;
+    grid-gap: 10px;
+  }
+}
+
+  </style>
+  <body>
+    <div class="wrapper">
+      <button class="subs">
+        <a href="https://www.youtube.com/@CodeHelp" class="Subscribe"
+          >Subscribe</a
+        >
+      </button>
+      <h1>Blog Title</h1>
+      <div class="container">
+        <div class="box" id="box1">
+          <h2>Sample blog post</h2>
+          <p class="date">
+            july 5 2023 by
+            <a href="https://github.com/Abiral-2724/Abiral-2724">Abiral</a>
+          </p>
+          <br />
+          <p>
+            Welcome to our blog, where we explore the beauty and significance of
+            sustainable travel. In this post, we embark on a virtual journey
+            towards eco-conscious adventures. Join us as we delve into the
+            transformative power of sustainable tourism, and discover how we can
+            all contribute to a greener and more responsible approach to
+            exploring the world.
+          </p>
+          <hr />
+          <br />
+          <p>
+            In this section, we highlight the core principles of sustainable
+            travel and its importance for our planet. We discuss the concept of
+            minimizing our environmental impact, supporting local communities,
+            and preserving cultural heritage. By adopting sustainable practices,
+            we can create a positive ripple effect that benefits both the
+            destinations we visit and the generations to come.
+          </p>
+          <br />
+          <p>
+            Here, we explore the significance of selecting eco-friendly
+            accommodations during our travels. We discuss various options such
+            as eco-lodges, green hotels, and community-based homestays
+          </p>
+          <br />
+          <p class="para4">
+            We provide tips on how to identify sustainable accommodations and
+            the benefits they offer in terms of reduced energy consumption,
+            waste management, and support for local economies.
+          </p>
+          <br />
+          <h2>Heading</h2>
+          <br />
+          <p>
+            Transportation plays a vital role in sustainable travel. In this
+            section, we delve into the different modes of eco-friendly
+            transportation available, such as trains, buses, bicycles, and
+            walking.
+          </p>
+          <br />
+          <h2>Sub-heading</h2>
+          <br />
+          <p>
+            We also discuss the importance of mindful itinerary planning,
+            including the concept of slow travel,
+          </p>
+          <br />
+          <hr />
+          <p>Example - code blog</p>
+          <hr />
+          <br />
+          <p>
+            One of the most enriching aspects of sustainable travel is the
+            opportunity to connect with local communities. We highlight the
+            importance of engaging with locals, learning about their customs,
+            and supporting their livelihoods through responsible shopping
+          </p>
+          <br />
+          <h2>Sub-heading</h2>
+          <p>
+            Responsible tourism is a crucial aspect of sustainable travel. In
+            this section, we explore the principles of "leave no trace" and
+            delve into responsible wildlife encounters, ethical souvenirs, and
+            proper waste management. By adopting these practices, we ensure that
+            our presence has minimal negative impact on the environment and
+            wildlife, and we leave destinations as pristine as we found them.
+          </p>
+          <br />
+          <ul>
+            <li>
+              In this blog post, we have embarked on a journey towards
+              eco-conscious adventures and explored the wonders of sustainable
+              travel
+            </li>
+            <li>
+              By adopting sustainable practices such as choosing eco-friendly
+              accommodations, mindful transportation
+            </li>
+            <li>
+              Let's embrace a greener and more responsible approach to travel,
+              leaving behind cherished memories and a sustainable planet for
+              future generations.
+            </li>
+          </ul>
+          <br />
+          <p>
+            Let's embrace a greener and more responsible approach to travel,
+            leaving behind cherished memories and a sustainable planet for
+            future generations.
+          </p>
+          <br />
+          <br />
+          <button class="button">
+            order post
+          </button>
+          <button class="button2">Message post</button>
+        </div>
+        <div class="box">
+          <h3>About</h3>
+          <br />
+          <p>
+            In this section, we highlight the core principles of sustainable
+            travel and its importance for our planet. We discuss the concept of
+            minimizing our environmental impact, supporting local communities,
+            and preserving cultural heritage
+          </p>
+          <br />
+          <br />
+          <h3>Archives</h3>
+          <pre>
+            <a href="https://zapier.com/blog/best-blog-sites/#wordpressself">March 2014</a>
+            <a href="https://www.notion.so/Queue-73ae10ff5cf943b19db37d2c5d10bfdf">May 2019</a>
+            <a href="https://www.onlinegdb.com/edit/CBaZp2uHS">June 2020</a>
+            <a href="https://chat.openai.com/">July 2021</a>
+            <a href="https://github.com/Abiral-2724/webdevelopnment/blob/main/project%201.%20CSS">Jan 2023</a>
+          </pre>
+          <br />
+          <br />
+          <h2>Elsewhere</h2>
+          <a
+            href="https://github.com/Abiral-2724/webdevelopnment/blob/main/project%201.%20CSS"
+            class="icon"
+            >Github</a
+          >
+          <br />
+          <a href="https://www.facebook.com/" class="icon">Facebook</a>
+          <br />
+          <a
+            href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Den-in"
+            class="icon"
+            >Twitter</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
